@@ -1,0 +1,2 @@
+class MaintenanceProject < ApplicationRecord
+end
