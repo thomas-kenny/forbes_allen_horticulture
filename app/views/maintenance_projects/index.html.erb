@@ -1,4 +1,18 @@
-<h1>Maintenance Projects</h1>
-<% @maintenance_projects.each do |project|%>
-<h4><%= project.name %></h4>
-<% end %>
+<div class="banner">
+  <h1>Maintenance Projects</h1>
+</div>
+
+<div class="index-cards">
+  <% @maintenance_projects.each do |project|%>
+    <%= link_to maintenance_project_path(project), class: "link" do  %>
+      <div class="card-trip">
+        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
+        <div class="card-trip-infos">
+          <div>
+            <h2><%= project.name  %></h2>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+</div>

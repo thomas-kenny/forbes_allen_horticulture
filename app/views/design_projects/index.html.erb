@@ -1,10 +1,18 @@
-<div class="container">
+<div class="banner">
   <h1>Design Projects</h1>
+</div>
+
+<div class="index-cards">
   <% @design_projects.each do |project|%>
-    <div class="cards">
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
-        <%= project.name %>
+    <%= link_to design_project_path(project), class: "link" do  %>
+      <div class="card-trip">
+        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
+        <div class="card-trip-infos">
+          <div>
+            <h2><%= project.name  %></h2>
+          </div>
+        </div>
       </div>
-    </div>
+    <% end %>
   <% end %>
 </div>
