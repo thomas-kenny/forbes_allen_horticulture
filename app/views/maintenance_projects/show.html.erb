@@ -1,25 +1,8 @@
 <div class="banner">
   <h1><%= @maintenance_project.name %></h1>
 </div>
-<div class="container">
-  <%= image_tag @maintenance_project.image, class: "landscape" %>
- <div class="portrait-pair">
-    <%= image_tag @maintenance_project.image_10, class: "portrait" %>
-    <%= image_tag @maintenance_project.image_7, class: "portrait" %>
-  </div>
-  <div class="portrait-pair">
-    <%= image_tag @maintenance_project.image_4, class: "portrait" %>
-    <%= image_tag @maintenance_project.image_6, class: "portrait" %>
-  </div>
-  <%= image_tag @maintenance_project.image_2, class: "landscape" %>
-  <div class="portrait-pair">
-    <%= image_tag @maintenance_project.image_5, class: "portrait" %>
-    <%= image_tag @maintenance_project.image_8, class: "portrait" %>
-  </div>
-  <div class="portrait-pair">
-    <%= image_tag @maintenance_project.image_9, class: "portrait" %>
-    <%= image_tag @maintenance_project.image_3, class: "portrait" %>
-  </div>
-</div>
+<% if @maintenance_project.name == "The Grange, Dulwich" %>
+  <%= render 'the_grange' %>
+<% end %>
 
 <!-- use unless image == nil if number of images is less than 10 -->

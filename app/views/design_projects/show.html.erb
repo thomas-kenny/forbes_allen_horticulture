@@ -1,6 +1,8 @@
 <div class="banner">
   <h1><%= @design_project.name %></h1>
 </div>
-<div class="container">
-  <%= image_tag @design_project.image, alt: "alttext" %>
-</div>
+<% if @design_project.name == "Beauval Road" %>
+  <%= render 'beauval_road' %>
+<% elsif @design_project.name == "Melford Road" %>
+  <%= render 'melford_road' %>
+<% end %>
