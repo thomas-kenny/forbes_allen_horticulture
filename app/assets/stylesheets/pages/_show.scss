@@ -1,0 +1,31 @@
+.landscape {
+  width: 100%;
+  padding: 10px;
+}
+
+.portrait {
+  width: 50%;
+  padding: 10px;
+}
+
+.portrait-pair {
+  display: flex;
+  flex-direction: row;
+}
+
+
+  //  <%= image_tag @maintenance_project.image_7, class: "portrait" %>
+  // </div>
+  // <div class="portrait-pair">
+  //   <%= image_tag @maintenance_project.image_4, class: "portrait" %>
+  //   <%= image_tag @maintenance_project.image_6, class: "portrait" %>
+  // </div>
+  // <%= image_tag @maintenance_project.image_2, class: "landscape" %>
+  // <div class="portrait-pair">
+  //   <%= image_tag @maintenance_project.image_5, class: "portrait" %>
+  //   <%= image_tag @maintenance_project.image_8, class: "portrait" %>
+  // </div>
+  // <div class="portrait-pair">
+  //   <%= image_tag @maintenance_project.image_9, class: "portrait" %>
+  //   <%= image_tag @maintenance_project.image_3, class: "portrait" %>
+  // </div>
