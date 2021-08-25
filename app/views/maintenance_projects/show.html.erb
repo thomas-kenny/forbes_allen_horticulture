@@ -1,8 +1,5 @@
 <div class="banner">
   <h1><%= @maintenance_project.name %></h1>
 </div>
-<% if @maintenance_project.name == "The Grange, Dulwich" %>
-  <%= render 'the_grange' %>
-<% end %>
+<%= render 'the_grange' if @maintenance_project.name == "The Grange, Dulwich" %>
 
-<!-- use unless image == nil if number of images is less than 10 -->

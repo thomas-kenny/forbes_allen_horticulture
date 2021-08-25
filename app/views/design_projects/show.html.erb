@@ -1,8 +1,5 @@
 <div class="banner">
   <h1><%= @design_project.name %></h1>
 </div>
-<% if @design_project.name == "Beauval Road" %>
-  <%= render 'beauval_road' %>
-<% elsif @design_project.name == "Melford Road" %>
-  <%= render 'melford_road' %>
-<% end %>
+<%= render 'beauval_road' if @design_project.name == "Beauval Road" %>
+<%= render 'melford_road' if @design_project.name == "Melford Road" %>
