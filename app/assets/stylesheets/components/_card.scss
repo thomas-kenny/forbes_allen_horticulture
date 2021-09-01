@@ -44,6 +44,8 @@
   opacity: 1;
 }
 
+// No hover effect on mobile
+
 @media (min-width: 100px) and (max-width: 768px) {
   .card-title {
     color: #ffff;

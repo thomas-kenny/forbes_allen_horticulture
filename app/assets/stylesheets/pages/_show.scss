@@ -3,6 +3,11 @@
   padding: 10px;
 }
 
+.landscape-single {
+  position: relative;
+  display: inline-block;
+}
+
 .portrait {
   width: 50%;
   padding: 10px;
@@ -12,3 +17,41 @@
   display: flex;
   flex-direction: row;
 }
+
+.landscape-single .image-text {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  opacity:0;
+  font-size: 20px;
+  transition: .8s ease;
+  bottom: 2%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  color: #fff;
+  width: 90%; /* Set the width of the positioned div */
+}
+
+.landscape-single:hover .image-text {
+  opacity: 1;
+}
+
+
+// No hover effect on mobile
+
+@media (min-width: 100px) and (max-width: 768px) {
+  .landscape-single .image-text {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  opacity:1;
+  font-size: 12px;
+  transition: .8s ease;
+  bottom: 2%; /* Adjust this value to move the positioned div up and down */
+  font-family: Arial,sans-serif;
+  color: #fff;
+  width: 90%; /* Set the width of the positioned div */
+}
+}
+

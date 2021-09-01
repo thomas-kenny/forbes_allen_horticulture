@@ -1,10 +1,15 @@
 <div class="container">
   <div class="description">
-    <p>Ipsum Lorem ipsum dolor sit amet consectetur adipisicing, elit. Obcaecati architecto, nisi officia. Molestiae, commodi similique cupiditate? Asperiores aspernatur, eaque dolorem quae vero distinctio nulla recusandae, magnam est sed quaerat minima.</p>
+    <p>You could have a block of text at the top of the page here to describe the project and include any details that you wanted...</p>
     <p>Ipsum Lorem ipsum dolor sit amet consectetur adipisicing, elit. Ratione incidunt similique, reprehenderit ullam veniam architecto. Illo, vel. Assumenda, recusandae saepe quaerat quas repellendus, distinctio, rem sequi debitis pariatur quibusdam enim!</p>
-    <p>Ipsum Lorem ipsum dolor sit amet consectetur adipisicing, elit. Ratione incidunt similique, reprehenderit ullam veniam architecto. Illo, vel. Assumenda, recusandae saepe quaerat quas repellendus, distinctio, rem sequi debitis pariatur quibusdam enim!</p>
+    <p>Or I can set it up so that when the user hovers over an image, a caption appears with a bit of info. Not sure if you would want/need it for every image, but if you hover on the one below you will see what I mean...</p>
   </div>
-  <%= image_tag @design_project.image, class: "landscape" %>
+  <div class="landscape-single">
+    <%= image_tag @design_project.image, class: "landscape" %>
+    <div class="image-text">
+      <p>Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur placeat exercitationem, sint consequatur ipsam maiores cum tempore natus illo repellendus magnam praesentium nulla, similique, blanditiis quaerat. Maxime numquam molestiae dolorem.</p>
+    </div>
+  </div>
  <div class="portrait-pair">
     <%= image_tag @design_project.image_10, class: "portrait" %>
     <%= image_tag @design_project.image_7, class: "portrait" %>
