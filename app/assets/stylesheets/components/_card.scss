@@ -44,6 +44,14 @@
   opacity: 1;
 }
 
+@media (min-width: 100px) and (max-width: 768px) {
+  .card-title {
+    color: #ffff;
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
 
 // Index pages
 
