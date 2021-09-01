@@ -4,6 +4,6 @@ class DesignProjectsController < ApplicationController
   end
 
   def show
-    @design_project = DesignProject.find(params[:id])
+    @design_project = DesignProject.friendly.find(params[:id])
   end
 end

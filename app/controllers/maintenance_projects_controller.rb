@@ -4,6 +4,6 @@ class MaintenanceProjectsController < ApplicationController
   end
 
   def show
-    @maintenance_project = MaintenanceProject.find(params[:id])
+    @maintenance_project = MaintenanceProject.friendly.find(params[:id])
   end
 end
