@@ -14,7 +14,7 @@
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   width: 100%;
-  margin-bottom: 48px;
+  // margin-bottom: 48px;
 }
 
 .cards {
@@ -24,10 +24,26 @@
   align-items: center;
   width: 100%;
   a {
-    width: 100%;
+    width: 75%;
     text-decoration: none;
+    margin-bottom: 48px;
   }
 }
+
+.card-title {
+  color: #fff;
+  visibility: none;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .3s, visibility .3s;
+}
+
+.cards a:hover .card-title {
+  visibility: visible;
+  opacity: 1;
+}
+
 
 // Index pages
 
