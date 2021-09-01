@@ -1,10 +1,23 @@
 .banner {
-  // background-image: asset-url('home_banner.jpg');
+  // background: pink;
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 200px;
+  height: 150px;
   width: 100%;
+  h1 {
+    font-size: 48px;
+    }
   }
+
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .banner {
+    height: 100px;
+    h1 {
+      font-size: 36px;
+    }
+  }
+}
