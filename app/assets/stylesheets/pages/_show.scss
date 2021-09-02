@@ -1,6 +1,6 @@
 .landscape {
   width: 100%;
-  padding: 10px;
+  padding: 15px;
 }
 
 .landscape-single {
@@ -10,16 +10,12 @@
 
 .portrait {
   width: 50%;
-  padding: 10px;
+  padding: 15px;
 }
 
 .portrait-pair {
   display: flex;
   flex-direction: row;
-}
-
-.description {
-  padding: 10px;
 }
 
 .landscape-single .image-text {
@@ -39,6 +35,20 @@
 .landscape-single:hover .image-text {
   opacity: 1;
 }
+
+.bottom-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.empty-div {
+  width: 50%;
+}
+.text {
+  width: 50%;
+}
+
 
 
 // No hover effect on mobile

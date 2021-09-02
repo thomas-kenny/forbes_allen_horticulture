@@ -1,6 +1,6 @@
 // Home page
 
-.home-cards {
+.home-card {
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -30,29 +30,29 @@
   }
 }
 
-.card-title {
-  color: #fff;
-  visibility: none;
-  opacity: 0;
+// .card-title {
+//   color: #fff;
+//   visibility: none;
+//   opacity: 0;
 
-  /* transition effect. not necessary */
-  transition: opacity .3s, visibility .3s;
-}
+//   /* transition effect. not necessary */
+//   transition: opacity .3s, visibility .3s;
+// }
 
-.cards a:hover .card-title {
-  visibility: visible;
-  opacity: 1;
-}
+// .cards a:hover .card-title {
+//   visibility: visible;
+//   opacity: 1;
+// }
 
-// No hover effect on mobile
+// // No hover effect on mobile
 
-@media (min-width: 100px) and (max-width: 768px) {
-  .card-title {
-    color: #ffff;
-    visibility: visible;
-    opacity: 1;
-  }
-}
+// @media (min-width: 100px) and (max-width: 768px) {
+//   .card-title {
+//     color: #ffff;
+//     visibility: visible;
+//     opacity: 1;
+//   }
+// }
 
 
 // Index pages

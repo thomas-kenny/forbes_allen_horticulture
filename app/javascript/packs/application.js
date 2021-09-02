@@ -27,8 +27,15 @@ import "bootstrap";
 
 // Internal imports, e.g:
 import { initUpdateActiveClassOnClick } from '../components/navbar.js';
+import { initTypewriterDesign} from '../plugins/typewriter.js';
+import { initTypewriterMaintenance} from '../plugins/typewriter.js';
+
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   initUpdateActiveClassOnClick();
+  if(document.querySelector('.home-card')) {
+    initTypewriterDesign();
+    initTypewriterMaintenance();
+  };
 });
