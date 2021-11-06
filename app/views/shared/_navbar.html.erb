@@ -1,7 +1,10 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <%= link_to root_path, class: "navbar-brand" do %>
-    <%= image_tag "https://res.cloudinary.com/dv1d9t9wu/image/upload/v1630510496/Forbes%20Allen%20Horticulture/temporary_logo_mdz8nd.jpg" %>
-    <% end %>
+  <div class="branding">
+    <%= link_to root_path, class: "navbar-brand" do %>
+      <%= image_tag "https://res.cloudinary.com/dv1d9t9wu/image/upload/v1630510496/Forbes%20Allen%20Horticulture/temporary_logo_mdz8nd.jpg" %>
+      <% end %>
+    <h3>Forbes Allen</h3>
+  </div>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -17,16 +20,16 @@
         <%= link_to "Maintenance", maintenance_projects_path, class: "nav-link" %>
       </li>
       <li class="header">
-        <%= link_to "About", about_path, class: "nav-link" %>
+        <%= link_to "About us", about_path, class: "nav-link" %>
+      </li>
+      <li class="header">
+        <%= link_to "Our approach", our_approach_path, class: "nav-link" %>
       </li>
       <li class="header">
         <%= link_to "Contact", contact_path, class: "nav-link" %>
       </li>
       <li class="header">
         <a href="#"><i class="fab fa-instagram nav-link"></i></a>
-      </li>
-      <li class="header">
-        <a href="#"><i class="fab fa-facebook nav-link"></i></a>
       </li>
     </ul>
   </div>

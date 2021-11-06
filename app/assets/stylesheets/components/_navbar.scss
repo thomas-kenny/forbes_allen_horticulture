@@ -1,6 +1,6 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: #F6F5F5;
+  background: #white;
   font-size: 18px;
 }
 
@@ -21,3 +21,9 @@
   margin-top: 5px;
 }
 
+.branding {
+  display: flex;
+  h3 {
+    margin-top: 18px;
+  }
+}

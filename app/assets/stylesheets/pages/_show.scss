@@ -1,5 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
 .landscape {
-  width: 100%;
+  width: 70%;
   padding: 15px;
 }
 
@@ -9,14 +16,14 @@
 }
 
 .portrait {
-  width: 50%;
+  width: 35%;
   padding: 15px;
 }
 
-.portrait-pair {
-  display: flex;
-  flex-direction: row;
-}
+// .portrait-pair {
+//   display: flex;
+//   flex-direction: row;
+// }
 
 .landscape-single .image-text {
   position: absolute;
@@ -52,21 +59,41 @@
 
 
 
-// No hover effect on mobile
+// // No hover effect on mobile
 
-@media (min-width: 100px) and (max-width: 768px) {
-  .landscape-single .image-text {
-  position: absolute;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  opacity:1;
-  font-size: 12px;
-  transition: .8s ease;
-  bottom: 2%; /* Adjust this value to move the positioned div up and down */
-  font-family: Arial,sans-serif;
-  color: #fff;
-  width: 90%; /* Set the width of the positioned div */
+// @media (min-width: 100px) and (max-width: 768px) {
+//   .landscape-single .image-text {
+//   position: absolute;
+//   margin: 0 auto;
+//   left: 0;
+//   right: 0;
+//   opacity:1;
+//   font-size: 12px;
+//   transition: .8s ease;
+//   bottom: 2%; /* Adjust this value to move the positioned div up and down */
+//   font-family: Arial,sans-serif;
+//   color: #fff;
+//   width: 90%; /* Set the width of the positioned div */
+// }
+// }
+
+// About Us and Our Approach
+
+.section-1, .section-2 {
+  display:flex;
+  padding: 16px;
 }
+
+.section-1 {
+  .text {
+    text-align: left;
+  }
 }
+
+.section-2 {
+  .text {
+    text-align: right;
+  }
+}
+
 
