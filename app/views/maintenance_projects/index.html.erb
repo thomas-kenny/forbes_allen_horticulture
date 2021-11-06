@@ -4,7 +4,7 @@
 
 <div class="index-cards">
   <% @maintenance_projects.each do |project|%>
-    <%= link_to maintenance_project_path(project), class: "card-link" do  %>
+    <%= link_to maintenance_project_path(project), class: "card-link maintenance-project-#{project.id}" do  %>
       <div class="card-project">
         <%= image_tag project.image, alt: "alttext" %>
         <div class="card-project-infos">
