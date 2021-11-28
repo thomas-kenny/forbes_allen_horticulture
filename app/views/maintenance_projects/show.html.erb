@@ -2,3 +2,5 @@
   <h1><%= @maintenance_project.name %></h1>
 </div>
 <%= render 'the_grange' if @maintenance_project.name == "The Grange, Dulwich" %>
+<%= render 'st_mary_boltons' if @maintenance_project.name == "St Mary Boltons, Chelsea" %>
+<%= render 'country_garden' if @maintenance_project.name == "Country Garden" %>
