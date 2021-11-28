@@ -2,3 +2,24 @@
 body {
   background: white;
 }
+
+.home-page {
+  margin-top: 20px;
+
+  .m-p-g {
+    max-width: 100%;
+    margin: 0 auto;
+    // width: 50%;
+  }
+
+  .m-p-g__thumbs-img {
+    margin: 20px;
+    vertical-align: bottom;
+    width: 25%;
+
+    @media (max-width: 992px) {
+      width: 50%;
+      margin: 10px;
+    }
+  }
+}
