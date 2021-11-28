@@ -1,0 +1,14 @@
+// About Us and Our Approach
+
+.section-1, .section-2 {
+  display:flex;
+  padding: 16px;
+  text-align: left;
+  .text {
+    padding: 50px;
+  }
+}
+
+img {
+  width: 25%;
+}
