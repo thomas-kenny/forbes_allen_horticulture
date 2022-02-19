@@ -1,6 +1,6 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: #white;
+  background: white;
   font-size: 18px;
 }
 
@@ -23,7 +23,13 @@
 
 .branding {
   display: flex;
-  h4 {
-    margin-top: 18px;
+  h5 {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+  }
+  p {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
   }
 }

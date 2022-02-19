@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
   root to: 'pages#home'
-  resources :design_projects
+  resources :projects
   resources :maintenance_projects
   get '/about', to: 'pages#about'
   get '/contact', to: 'pages#contact'

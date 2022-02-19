@@ -1,9 +1,9 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
   <div class="branding">
     <%= link_to root_path, class: "navbar-brand" do %>
-      <%= image_tag "https://res.cloudinary.com/dv1d9t9wu/image/upload/v1630510496/Forbes%20Allen%20Horticulture/temporary_logo_mdz8nd.jpg" %>
-      <% end %>
-    <h4>Forbes Allen</h4>
+        <h5>Forbes Allen Horticulture</h5><p>Garden Maintenance & Design</p>
+    <% end %>
+
   </div>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,19 +14,16 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="header">
-        <%= link_to "Design", design_projects_path, class: "nav-link" %>
+        <%= link_to "about us", about_path, class: "nav-link" %>
       </li>
       <li class="header">
-        <%= link_to "Maintenance", maintenance_projects_path, class: "nav-link" %>
+        <%= link_to "projects", projects_path, class: "nav-link" %>
       </li>
       <li class="header">
-        <%= link_to "About us", about_path, class: "nav-link" %>
+        <%= link_to "our approach", our_approach_path, class: "nav-link" %>
       </li>
       <li class="header">
-        <%= link_to "Our approach", our_approach_path, class: "nav-link" %>
-      </li>
-      <li class="header">
-        <%= link_to "Contact", contact_path, class: "nav-link" %>
+        <%= link_to "contact us", contact_path, class: "nav-link" %>
       </li>
       <li class="header">
         <a href="#"><i class="fab fa-instagram nav-link"></i></a>

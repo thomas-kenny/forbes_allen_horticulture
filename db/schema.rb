@@ -10,29 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_11_28_110715) do
+ActiveRecord::Schema.define(version: 2022_02_19_092722) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "design_projects", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.string "image"
-    t.string "image_2"
-    t.string "image_3"
-    t.string "image_4"
-    t.string "image_5"
-    t.string "image_6"
-    t.string "image_7"
-    t.string "image_8"
-    t.string "image_9"
-    t.string "image_10"
-    t.string "slug"
-    t.string "image_11"
-    t.index ["slug"], name: "index_design_projects_on_slug", unique: true
-  end
 
   create_table "friendly_id_slugs", force: :cascade do |t|
     t.string "slug", null: false
@@ -62,6 +43,26 @@ ActiveRecord::Schema.define(version: 2021_11_28_110715) do
     t.string "slug"
     t.string "image_11"
     t.index ["slug"], name: "index_maintenance_projects_on_slug", unique: true
+  end
+
+  create_table "projects", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "image"
+    t.string "image_2"
+    t.string "image_3"
+    t.string "image_4"
+    t.string "image_5"
+    t.string "image_6"
+    t.string "image_7"
+    t.string "image_8"
+    t.string "image_9"
+    t.string "image_10"
+    t.string "slug"
+    t.string "image_11"
+    t.string "project_type"
+    t.index ["slug"], name: "index_projects_on_slug", unique: true
   end
 
   create_table "users", force: :cascade do |t|
