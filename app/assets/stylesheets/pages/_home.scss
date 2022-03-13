@@ -8,14 +8,14 @@ body {
 
   .m-p-g {
     max-width: 100%;
-    margin: 0 auto;
+    // margin: 0 auto;
     // width: 50%;
   }
 
   .m-p-g__thumbs-img {
     margin: 20px;
     vertical-align: bottom;
-    width: 25%;
+    width: 50%;
 
     @media (max-width: 992px) {
       width: 50%;
