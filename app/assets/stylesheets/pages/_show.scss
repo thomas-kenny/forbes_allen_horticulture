@@ -4,6 +4,10 @@ body {
   text-align: center;
 }
 
+.show-page {
+  padding-top: 32px;
+}
+
 
 .landscape {
   width: 90%;
@@ -11,26 +15,53 @@ body {
 }
 
 .landscape-single {
-  position: relative;
+  position: relative; 
   display: inline-block;
 }
 
 .portrait {
-  width: 45%;
+  width: 50%;
   padding: 15px;
 }
 
 .text-and-image {
+  padding-top: 80px;
   display: flex;
   flex-direction: column;
   width: 50%;
+  text-align: left;
+  p {
+    width: 90%;
+    font-size: 18px;
+    padding: 12px;
+  }
   img {
     width: 100%;
   }
-  padding: 15px;
 }
 
-.portrait-pair-text {
+.image-and-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: left;
+  img {
+    width: 100%;
+  }
+}
+
+.testimonial {
+  font-size: 24px;
+  padding: 48px 0 0 16px;
+}
+
+.testimonial-name {
+  text-align: right;
+  padding: 16px;
+  font-size: 18px;
+}
+
+.portrait-pair {
   display: flex;
   flex-direction: row;
   width: 90%;
