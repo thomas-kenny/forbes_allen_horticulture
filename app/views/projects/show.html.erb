@@ -1,6 +1,6 @@
 <div class="banner">
-  <h1><%= @project.name %></h1>
-  <h3><%= @project.project_type %></h3>
+  <h1><%= @project.name.downcase %></h1>
+  <h3><%= @project.project_type.downcase %></h3>
 </div>
 <%= render 'dulwich_garden' if @project.name == "Dulwich Garden" %>
 <%= render 'terraced_mediterranean_garden' if @project.name == "Terraced Mediterranean Garden" %>
