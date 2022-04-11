@@ -6,6 +6,7 @@
   width: 100%;
   text-align: center;
   padding-top: 2rem;
+  padding-bottom: 1rem;
   h1 {
     font-family: forma-djr-deck, sans-serif;
     font-weight: 300;
@@ -19,7 +20,10 @@
   .banner {
     height: 100px;
     h1 {
-      font-size: 36px;
+      font-size: 28px;
+    }
+    h3 {
+      font-size: 20px;
     }
   }
 }
