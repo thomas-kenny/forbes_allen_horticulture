@@ -79,7 +79,9 @@ body {
   margin: 0 auto;
   justify-content: space-between;
   align-self: flex-start;
-  height: auto
+  img {
+    height: auto;
+  }
 }
 
 .landscape-single .image-text {
