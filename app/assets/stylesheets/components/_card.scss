@@ -65,7 +65,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 24px;
-  padding: 48px;
+  padding-left: 5%;
+  padding-top: 4rem;
 }
 
 .card-project {
@@ -75,7 +76,6 @@
 }
 
 .card-project > img {
-  height: 300px;
   width: 100%;
   object-fit: cover;
 }

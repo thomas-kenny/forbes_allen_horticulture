@@ -44,3 +44,15 @@
     font-size: 20px;
   }
 }
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .branding {
+    height: 100px;
+    h4 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}
