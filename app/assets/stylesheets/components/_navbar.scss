@@ -2,7 +2,7 @@
   justify-content: space-between;
   background: white;
   font-size: 22px;
-  padding: 0px 1%;
+  padding: 0px 1.5rem;
   font-family: forma-djr-deck, sans-serif;
 }
 
@@ -57,21 +57,25 @@ ul {
     padding: none !important;
     font-size: 14px;
   }
-  // .navbar-lewagon {
-  //   padding: 0 8%;
-  // }
+  .navbar-lewagon {
+    padding: 0 1rem
+  }
   .branding {
     height: 100px;
     h4 {
       font-size: 20px;
     }
     p {
-      font-size: 16px;
+      font-size: 12px;
     }
   }
 }
 
 @media (min-width: 577px) and (max-width: 1125px) {
+
+  .navbar-lewagon {
+    padding: 0 1rem
+  }
 
   .branding {
     h4 {
@@ -82,9 +86,9 @@ ul {
     }
   }
 
-  // .navbar-lewagon {
-  //   padding: 0 7%;
-  // }
+  .navbar-lewagon {
+    // padding: 0 7%;
+  }
 
   .navbar {
     position: relative !important;
@@ -128,6 +132,10 @@ ul {
       flex-direction: column !important;
     }
   }
+
+  // .portrait-pair, .landscape {
+  //   width: 100% !important;
+  // }
 
 }
 
