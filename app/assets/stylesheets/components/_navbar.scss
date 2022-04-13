@@ -48,24 +48,44 @@ ul {
   }
 }
 
-@media (min-width: 100px) and (max-width: 1125px) {
+@media (min-width: 100px) and (max-width: 576px) {
   .nav-link {
     padding: none !important;
     font-size: 16px;
   }
+  .navbar-lewagon {
+    padding: 0 8%;
+  }
   .branding {
     height: 100px;
     h4 {
-      font-size: 24px;
+      font-size: 20px;
     }
     p {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
-  // .navbar-expand-sm .navbar-toggler {
-  //   display: block;
-  // }
 }
+
+@media (min-width: 577px) and (max-width: 1124px) {
+  .nav-link {
+    padding: none !important;
+    font-size: 18px;
+  }
+  .navbar-brand {
+    padding-left: 0.5rem;
+  }
+  .branding {
+    height: 100px;
+    h4 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
 
 @media (min-width: 1125px) {
   .navbar-expand-sm .navbar-nav .nav-link-padding {
