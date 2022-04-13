@@ -10,10 +10,6 @@
   flex-grow: 0;
 }
 
-// .nav-link {
-//   padding-left: 4rem !important;
-// }
-
 .navbar-lewagon .navbar-brand img {
   width: 56px;
   border-radius: 50%;
@@ -48,6 +44,7 @@
 @media (min-width: 100px) and (max-width: 575px) {
   .nav-link {
     padding: none !important;
+    font-size: 16px;
   }
   .branding {
     height: 100px;
@@ -57,5 +54,14 @@
     p {
       font-size: 12px;
     }
+  }
+}
+
+@media (min-width: 922px) {
+  .navbar-expand-sm .navbar-nav .nav-link-padding {
+    padding-right: 2.5rem;
+  }
+  .tagline {
+    margin-top: -6px;
   }
 }
