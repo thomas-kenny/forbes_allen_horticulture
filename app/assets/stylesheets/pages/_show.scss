@@ -17,7 +17,7 @@ body {
 
 
 .landscape {
-  width: 90%;
+  width: 100%;
   padding: 15px;
 }
 
@@ -75,7 +75,7 @@ body {
 .portrait-pair {
   display: flex;
   flex-direction: row;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   justify-content: space-between;
   align-self: flex-start;
