@@ -41,7 +41,14 @@
   }
 }
 
-@media (min-width: 100px) and (max-width: 575px) {
+ul {
+  white-space: nowrap;
+  li {
+    display: inline-block
+  }
+}
+
+@media (min-width: 100px) and (max-width: 1125px) {
   .nav-link {
     padding: none !important;
     font-size: 16px;
@@ -49,15 +56,18 @@
   .branding {
     height: 100px;
     h4 {
-      font-size: 20px;
+      font-size: 24px;
     }
     p {
-      font-size: 12px;
+      font-size: 14px;
     }
   }
+  // .navbar-expand-sm .navbar-toggler {
+  //   display: block;
+  // }
 }
 
-@media (min-width: 922px) {
+@media (min-width: 1125px) {
   .navbar-expand-sm .navbar-nav .nav-link-padding {
     padding-right: 2.5rem;
   }
