@@ -23,6 +23,10 @@
   margin-top: 5px;
 }
 
+.nav-link {
+  font-size: 14px;
+}
+
 .branding {
   display: flex;
   padding-top: 28px;
@@ -32,12 +36,12 @@
     font-weight: 300;
     font-style: normal;
     margin-bottom: 0;
-    font-size: 40px;
+    font-size: 38.5px;
   }
   p {
     text-align: left;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 21px;
   }
 }
 
@@ -51,7 +55,7 @@ ul {
 @media (min-width: 100px) and (max-width: 700px) {
   .nav-link {
     padding: none !important;
-    font-size: 16px;
+    font-size: 14px;
   }
   .navbar-lewagon {
     padding: 0 8%;
