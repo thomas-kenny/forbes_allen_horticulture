@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_02_19_092722) do
+ActiveRecord::Schema.define(version: 2022_04_13_133824) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -62,6 +62,7 @@ ActiveRecord::Schema.define(version: 2022_02_19_092722) do
     t.string "slug"
     t.string "image_11"
     t.string "project_type"
+    t.integer "order"
     t.index ["slug"], name: "index_projects_on_slug", unique: true
   end
 
