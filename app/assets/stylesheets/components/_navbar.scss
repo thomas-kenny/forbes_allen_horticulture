@@ -2,7 +2,7 @@
   justify-content: space-between;
   background: white;
   font-size: 22px;
-  padding: 0px 2rem;
+  padding: 0 2rem;
   font-family: forma-djr-deck, sans-serif;
 }
 
@@ -86,6 +86,9 @@ ul {
       font-weight: 600;
     }
   }
+  .index-cards {
+    margin-right: -0.5rem;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 1125px) {
@@ -168,6 +171,9 @@ ul {
   }
   .navbar-collapse {
     margin-bottom: 1.5rem;  
+  }
+  .index-cards {
+    margin-left: 1rem;
   }
 }
 
