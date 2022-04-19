@@ -4,26 +4,41 @@
   grid-template-rows: auto 1fr auto;
 }
 
+.footer-container {
+  margin-top: 12rem;
+}
+
 .footer {
-  // background: #F7F6F2;
+  background: #F5F5F5;
   display: flex;
-  align-items: center;
+  flex-direction: column  ;
   justify-content: space-between;
-  height: 65px;
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
+  height: 12rem;
+  padding: 3rem 5% 0 0;
+  align-items: flex-end;
 }
+
 .footer-links {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  text-align: left;  
 }
 .footer-links a {
   color: black;
-  opacity: 0.15;
+  opacity: 0.4;
   text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
+  // padding: 0px 10px;
 }
 .footer-links a:hover {
   opacity: 1;
 }
+
+@media (min-width: 100px) and (max-width: 576px) {
+  .footer {
+    align-items: flex-start;
+    padding: 2rem;
+  }
+}
+
