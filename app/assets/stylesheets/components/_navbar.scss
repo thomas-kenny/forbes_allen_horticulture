@@ -2,7 +2,7 @@
   justify-content: space-between;
   background: white;
   font-size: 22px;
-  padding: 0px 1.5rem;
+  padding: 0px 2rem;
   font-family: forma-djr-deck, sans-serif;
 }
 
@@ -25,6 +25,19 @@
 
 .nav-link {
   font-size: 16px;
+  color: black !important;
+  font-weight: 100; 
+}
+
+.active {
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border: none;
+  img {
+    width: 35px;
+  }
 }
 
 .branding {
@@ -52,21 +65,23 @@ ul {
   }
 }
 
-@media (min-width: 100px) and (max-width: 700px) {
+@media (min-width: 100px) and (max-width: 576px) {
   .nav-link {
     padding: none !important;
     font-size: 14px;
   }
   .navbar-lewagon {
-    padding: 0 1rem
+    padding: 0 .75rem 0 1.25rem
   }
   .branding {
     height: 100px;
     h4 {
       font-size: 20px;
+      font-weight: 600;
     }
     p {
       font-size: 12px;
+      font-weight: 600;
     }
   }
 }
@@ -74,15 +89,17 @@ ul {
 @media (min-width: 577px) and (max-width: 1125px) {
 
   .navbar-lewagon {
-    padding: 0 1rem
+    padding: 0 1rem 0 1.5rem
   }
 
   .branding {
     h4 {
       font-size: 32px;
+      font-weight: auto !important;
     }
     p {
       font-size: 16px;
+      font-weight: auto !important;
     }
   }
 
@@ -147,4 +164,8 @@ ul {
   .tagline {
     margin-top: -6px;
   }
+  .navbar-collapse {
+    margin-bottom: 1.5rem;  
+  }
 }
+
