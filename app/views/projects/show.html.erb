@@ -1,9 +1,9 @@
 <div class="banner">
-  <h1><%= @project.name.downcase %></h1>
+  <h1><%= @project.name %></h1>
   <h3><%= @project.project_type.downcase %></h3>
 </div>
-<%= render 'dulwich_garden' if @project.name == "Dulwich Garden" %>
-<%= render 'terraced_mediterranean_garden' if @project.name == "Terraced Mediterranean Garden" %>
+<%= render 'designers_garden' if @project.name == "Designer's Garden" %>
+<%= render 'terraced_garden' if @project.name == "Terraced Garden" %>
 <%= render 'london_country_garden' if @project.name == "London Country Garden" %>
 <%= render 'sinclair_till' if @project.name == "Sinclair Till" %>
 <%= render 'churchyard_garden' if @project.name == "Churchyard Garden" %>
