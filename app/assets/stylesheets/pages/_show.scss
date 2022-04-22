@@ -30,7 +30,16 @@ body {
 
 .portrait {
   width: 50%;
-  padding: 15px;
+}
+
+.portrait-left {
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+}
+
+.portrait-right {
+  padding-right: 1rem;
+  padding-left: 0.5rem;
 }
 
 .text-and-image {
