@@ -74,9 +74,6 @@ ul {
     padding: none !important;
     font-size: 15px;
   }
-  .navbar-lewagon {
-    // padding: 0 .75rem 0 1.25rem
-  }
   .branding {
     height: 100px;
     h4 {
@@ -112,11 +109,6 @@ ul {
 }
 
 @media (min-width: 577px) and (max-width: 1125px) {
-
-  .navbar-lewagon {
-    // padding: 0 1rem 0 1.5rem
-  }
-
   .branding {
     h4 {
       font-size: 32px;
@@ -170,11 +162,6 @@ ul {
       flex-direction: column !important;
     }
   }
-
-  // .portrait-pair, .landscape {
-  //   width: 100% !important;
-  // }
-
 }
 
 
