@@ -1,9 +1,19 @@
 <div class="show-page">
   <div class="landscape-single">
-    <img src="https://res.cloudinary.com/dv1d9t9wu/image/upload/v1649682335/Forbes%20Allen%20Horticulture/Homepage/FINAL/Jimmy_Homepage_ebjzjf.jpg" class="landscape" />
+    <%= link_to project_path(Project.find(7)) do  %>
+      <img src="https://res.cloudinary.com/dv1d9t9wu/image/upload/v1649682335/Forbes%20Allen%20Horticulture/Homepage/FINAL/Jimmy_Homepage_ebjzjf.jpg" class="landscape" />
+    <% end %>
   </div>
-  <img src="https://res.cloudinary.com/dv1d9t9wu/image/upload/v1649682337/Forbes%20Allen%20Horticulture/Homepage/FINAL/Grange_Landscape_persicaria_lawn_mulberry__snyzz6.jpg" class="landscape" />
-  <img src="https://res.cloudinary.com/dv1d9t9wu/image/upload/v1649682339/Forbes%20Allen%20Horticulture/Homepage/FINAL/Beauval_Homepage_phshped_adp7ep.jpg" class="landscape" />
-  <img src="https://res.cloudinary.com/dv1d9t9wu/image/upload/v1649682365/Forbes%20Allen%20Horticulture/Homepage/FINAL/Full_Facade_Edited_FINAL_tfjxfp.jpg" class="landscape" />
-  <img src="https://res.cloudinary.com/dv1d9t9wu/image/upload/v1649682329/Forbes%20Allen%20Horticulture/Homepage/FINAL/Boltons_Wisteria_Rockery_homepage_xiwcbx.jpg" class="landscape" />
+  <%= link_to project_path(Project.find(10)) do  %>
+    <img src="https://res.cloudinary.com/dv1d9t9wu/image/upload/v1649682337/Forbes%20Allen%20Horticulture/Homepage/FINAL/Grange_Landscape_persicaria_lawn_mulberry__snyzz6.jpg" class="landscape" />
+  <% end %>
+  <%= link_to project_path(Project.find(6)) do  %>
+    <img src="https://res.cloudinary.com/dv1d9t9wu/image/upload/v1649682339/Forbes%20Allen%20Horticulture/Homepage/FINAL/Beauval_Homepage_phshped_adp7ep.jpg" class="landscape" />
+  <% end %>
+  <%= link_to project_path(Project.find(8)) do  %>
+    <img src="https://res.cloudinary.com/dv1d9t9wu/image/upload/v1649682365/Forbes%20Allen%20Horticulture/Homepage/FINAL/Full_Facade_Edited_FINAL_tfjxfp.jpg" class="landscape" />
+  <% end %>
+  <%= link_to project_path(Project.find(9)) do  %>
+    <img src="https://res.cloudinary.com/dv1d9t9wu/image/upload/v1649682329/Forbes%20Allen%20Horticulture/Homepage/FINAL/Boltons_Wisteria_Rockery_homepage_xiwcbx.jpg" class="landscape" />
+  <% end %>
 </div>
