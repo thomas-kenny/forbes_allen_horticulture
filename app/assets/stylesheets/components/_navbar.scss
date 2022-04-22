@@ -100,6 +100,12 @@ ul {
   h3 {
     font-size: 18px !important;
   }
+  .portrait-left {
+    padding-right: 0.25rem !important;
+  } 
+  .portrait-right {
+    padding-left: 0.25rem !important;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 1125px) {

@@ -30,17 +30,18 @@ body {
 
 .portrait {
   width: 50%;
+  padding: 1rem;
 }
 
-.portrait-left {
-  padding-left: 1rem;
-  padding-right: 0.5rem;
-}
+// .portrait-left {
+//   padding-left: 1rem;
+//   padding-right: 0.5rem;
+// }
 
-.portrait-right {
-  padding-right: 1rem;
-  padding-left: 0.5rem;
-}
+// .portrait-right {
+//   padding-right: 1rem;
+//   padding-left: 0.5rem;
+// }
 
 .text-and-image {
   padding-top: 80px;
@@ -127,24 +128,3 @@ body {
   width: 50%;
   padding: 15px;
 }
-
-
-
-// // No hover effect on mobile
-
-// @media (min-width: 100px) and (max-width: 768px) {
-//   .landscape-single .image-text {
-//   position: absolute;
-//   margin: 0 auto;
-//   left: 0;
-//   right: 0;
-//   opacity:1;
-//   font-size: 12px;
-//   transition: .8s ease;
-//   bottom: 2%; /* Adjust this value to move the positioned div up and down */
-//   font-family: Arial,sans-serif;
-//   color: #fff;
-//   width: 90%; /* Set the width of the positioned div */
-// }
-// }
-
