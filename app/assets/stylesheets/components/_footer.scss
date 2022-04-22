@@ -23,16 +23,19 @@
 .footer-links {
   display: flex;
   flex-direction: column;
-  text-align: left;  
+  text-align: left;
+  h4 {
+    color: black;
+  }
 }
 .footer-links a {
   color: black;
-  opacity: 0.4;
   text-decoration: none;
-  // padding: 0px 10px;
 }
 .footer-links a:hover {
-  opacity: 1;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-position: under;
 }
 
 @media (min-width: 100px) and (max-width: 576px) {
