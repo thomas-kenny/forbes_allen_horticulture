@@ -2,7 +2,7 @@
   justify-content: space-between;
   background: white;
   font-size: 22px;
-  padding: 0 1.5% 0 2.5%;
+  padding: 0 1rem;
   font-family: forma-djr-deck, sans-serif;
 }
 
@@ -41,6 +41,7 @@
   img {
     width: 35px;
   }
+  padding: 0 !important;
 }
 
 .branding {
@@ -74,28 +75,37 @@ ul {
     font-size: 14px;
   }
   .navbar-lewagon {
-    padding: 0 .75rem 0 1.25rem
+    // padding: 0 .75rem 0 1.25rem
   }
   .branding {
     height: 100px;
     h4 {
-      font-size: 20px;
+      font-size: 24px;
       font-weight: 600;
     }
     p {
-      font-size: 12px;
+      font-size: 16px;
       font-weight: 600;
     }
   }
   .index-cards {
     margin-right: -0.5rem;
   }
+  h1{
+    font-size: 22px !important;
+  }
+  h2 {
+    font-size: 14px !important;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 1125px) {
 
   .navbar-lewagon {
-    padding: 0 1rem 0 1.5rem
+    // padding: 0 1rem 0 1.5rem
   }
 
   .branding {
@@ -172,6 +182,9 @@ ul {
   }
   .navbar-collapse {
     margin-bottom: 1.5rem;  
+  }
+  .nav-link-no-padding {
+    padding-right: 0 !important;
   }
 }
 
