@@ -2,7 +2,7 @@
   justify-content: space-between;
   background: white;
   font-size: 22px;
-  padding: 0 1rem;
+  padding: 26px;
   font-family: forma-djr-deck, sans-serif;
 }
 
@@ -72,6 +72,9 @@ ul {
 // Majority of mobile CSS here:
 
 @media (min-width: 100px) and (max-width: 576px) {
+  .show-text {
+    font-size: 14px !important;
+  }
   .nav-link {
     padding: none !important;
     font-size: 15px;
@@ -79,11 +82,11 @@ ul {
   .branding {
     height: 100px;
     h4 {
-      font-size: 20px;
+      font-size: 22px;
       font-weight: 600;
     }
     p {
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 600;
     }
   }
