@@ -46,3 +46,10 @@
 .text {
   text-align: left;
 }
+
+.contact-details {
+  a {
+    color: black !important;
+    text-decoration: underline;
+  }
+}
