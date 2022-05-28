@@ -72,6 +72,15 @@ ul {
 // Majority of mobile CSS here:
 
 @media (min-width: 100px) and (max-width: 576px) {
+  .project-summary {
+    flex-direction: column !important;
+    .show-text {
+      width: auto !important;
+    }
+    .project-name {
+      width: auto !important;
+    }
+  }
   .show-text {
     font-size: 14px !important;
   }
