@@ -92,11 +92,11 @@ ul {
   .branding {
     height: 100px;
     h4 {
-      font-size: 21px;
+      font-size: 22px;
       font-weight: 600;
     }
     p {
-      font-size: 15px;
+      font-size: 16px;
       font-weight: 600;
     }
   }
@@ -113,10 +113,7 @@ ul {
   h3 {
     font-size: 18px !important;
   }
-  .landscape {
-    padding: 8px !important
-  }
-  .portrait {
+  .portrait, .landscape, .navbar-lewagon {
     padding: 8px !important;
   }
   .portrait-left {
