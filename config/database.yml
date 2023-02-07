@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: forbes_allen_horticulture_production
-  username: forbes_allen_horticulture
-  password: <%= ENV['FORBES_ALLEN_HORTICULTURE_DATABASE_PASSWORD'] %>
+  database: forbes_allen_horticulture_development
+  # username: forbes_allen_horticulture
+  # password: <%= ENV['FORBES_ALLEN_HORTICULTURE_DATABASE_PASSWORD'] %>
