@@ -72,12 +72,15 @@
 .card-project {
   overflow: hidden;
   background: white;
-  // box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .card-project > img {
   width: 100%;
   object-fit: cover;
+  &:hover {
+    opacity: 0.9
+  }
+  
 }
 
 .card-project h2 {
