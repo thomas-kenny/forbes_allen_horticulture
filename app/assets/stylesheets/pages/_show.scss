@@ -14,8 +14,11 @@ body {
     padding: 26px;
     .project-name {
       width: 50%;
-      h3 {
-        // margin-top: 15%;
+      display: table; 
+      overflow: hidden;
+      .centered-vertically {
+        display: table-cell; 
+        vertical-align: middle;
       }
     }
     .show-text {
