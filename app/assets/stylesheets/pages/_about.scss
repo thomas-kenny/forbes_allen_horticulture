@@ -36,7 +36,9 @@
 
 .intro-section, .contact-details {
   text-align: left;
-  padding: 2rem 1rem 1rem 1rem;
+  // padding: 1rem;
+  font-size: 18px;
+  font-weight: 900;
 }
 
 #sam-pic {
@@ -45,6 +47,7 @@
 
 .text {
   text-align: left;
+  font-size: 18px;
 }
 
 .contact-details {
