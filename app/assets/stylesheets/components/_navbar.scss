@@ -135,13 +135,19 @@ ul {
   }
   .louisa-and-sam-text {
     flex-direction: column !important;
+    font-size: 14px !important;
   }
   .text {
+    h4 {
+      font-size: 18px;
+    }
     width: 100% !important;
     padding: 2rem 0 0 0 !important;
+    font-size: 14px !important;
   }
   .intro-section {
     padding: 2rem 0 1rem 0 !important;
+    font-size: 14px !important;
   }
 }
 
