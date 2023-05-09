@@ -13,7 +13,7 @@ body {
     height: fit-content;
     padding: 26px;
     .project-name {
-      width: 50%;
+      width: 33%;
       display: table; 
       overflow: hidden;
       .centered-vertically {
@@ -22,12 +22,12 @@ body {
       }
     }
     .show-text {
-      width: 50%;
+      width: 67%;
       margin: auto;
       padding: 26px;
       text-align: left;
       font-size: 16px;
-      font-weight: 600;
+      // font-weight: 600;
       line-height: 2;
       a {
         color: black;
@@ -43,7 +43,7 @@ body {
 
 .landscape {
   width: 100%;
-  padding: 8px;
+  padding: 26px;
 }
 
 .landscape-single {
@@ -53,7 +53,7 @@ body {
 
 .portrait {
   width: 50%;
-  padding: 8px;
+  padding: 26px;
 }
 
 // .portrait-left {

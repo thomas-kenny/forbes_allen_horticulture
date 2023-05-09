@@ -1,5 +1,5 @@
 <div class="banner">
-  <h1><%= @project.name %></h1>
+  <h2><%= @project.name %></h2>
   <h3><%= @project.project_type.downcase %></h3>
 </div>
 <%= render 'designers_garden' if @project.name == "Designer's Garden" %>

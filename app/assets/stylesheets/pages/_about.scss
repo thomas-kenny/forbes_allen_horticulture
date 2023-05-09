@@ -15,7 +15,6 @@
       width: 100%;
     }
     .text {
-      padding: 0px !important;
       width: 100%;
     }
   }
@@ -30,8 +29,16 @@
 
 .section-2 {
   margin-top: 2rem;
-  .text {
-    padding: 50px 0 0 50px;
+  img {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .approach-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.5rem;
+    font-size: 18px;
   }
 }
 
@@ -39,7 +46,6 @@
   text-align: left;
   // padding: 1rem;
   font-size: 18px;
-  font-weight: 900;
 }
 
 #sam-pic {
