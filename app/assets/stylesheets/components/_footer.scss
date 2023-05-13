@@ -5,7 +5,7 @@
 }
 
 .footer-container {
-  margin-top: 12rem;
+  margin-top: 8rem;
 }
 
 .footer {
@@ -18,7 +18,7 @@
   height: 12rem;
   padding: 2rem 5% 0 0;
   align-items: flex-end;
-  margin-top: -4rem;
+  flex-shrink: 0;
 }
 
 .footer-links {
@@ -46,6 +46,17 @@
   .footer {
     align-items: flex-start;
     padding: 2rem;
+  }
+  .footer-links {
+    h4 {
+      color: black;
+      font-size: 16px;
+      margin-bottom: 1.5rem;
+      font-weight: 900;
+    }
+    a {
+      font-size: 12px;
+    }
   }
 }
 
