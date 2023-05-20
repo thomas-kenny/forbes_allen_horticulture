@@ -17,7 +17,7 @@ body {
       width: 33%;
       display: table; 
       overflow: hidden;
-      .centered-vertically {
+      .centered-vertically {  
         display: table-cell; 
         vertical-align: middle;
       }
@@ -28,7 +28,6 @@ body {
       padding: 26px;
       text-align: left;
       font-size: 16px;
-      // font-weight: 600;
       line-height: 2;
       a {
         color: black;
