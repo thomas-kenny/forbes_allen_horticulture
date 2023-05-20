@@ -6,18 +6,25 @@
   justify-content: space-between;
   // padding: 16px;
   text-align: left;
-  img {
+  .desktop-image {
     width: 50%;
+  }
+  .mobile-image {
+    display: none;
   }
   @media (max-width: 992px) {
     flex-direction: column;
-    img {
+    .mobile-image {
+      display: flex;
       width: 100%;
       padding: 8px !important;
     }
     .approach-text {
       width: 100%;
       padding: 8px !important;
+    }
+    .desktop-image {
+      display: none;
     }
   }
 }
